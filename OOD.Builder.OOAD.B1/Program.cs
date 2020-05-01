@@ -6,7 +6,12 @@ namespace OOD.Builder.OOAD.B1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var orderBuilder = new PizzaorderBuilder();
+            orderBuilder.SetCheese(false);
+            orderBuilder.SetMeat("Chicken");
+            orderBuilder.SetSausage(true);
+            orderBuilder.SetSpicy(3);
+            orderBuilder.GetOrder();
         }
     }
 }
