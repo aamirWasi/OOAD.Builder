@@ -24,6 +24,10 @@
         {
             _order.UseCheese = setCheese;
         }
+        public void Print()
+        {
+            System.Console.WriteLine($"Use Cheese : {_order.UseCheese}\nUse Sausage : {_order.UseSausage}\nMeatType : {_order.Meat}\nSpicyLevel : {_order.SpiceLevel}\nHomeDelivery : {_order.HomeDelivery}");
+        }
         public PizzaOrder GetOrder()
         {
             return _order;

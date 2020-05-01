@@ -11,6 +11,7 @@ namespace OOD.Builder.OOAD.B1
             orderBuilder.SetMeat("Chicken");
             orderBuilder.SetSausage(true);
             orderBuilder.SetSpicy(3);
+            orderBuilder.Print();
             orderBuilder.GetOrder();
         }
     }
