@@ -24,7 +24,7 @@ namespace OOD.RPG.FluentInterface.Types.ExpressionBuilder
 
         public ICharacterBuilderAge As(ClassType classType)
         {
-            _character.Class = classType;
+            _character.ClassType = classType;
             return this;
         }
 

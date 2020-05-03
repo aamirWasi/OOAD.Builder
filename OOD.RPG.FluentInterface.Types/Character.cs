@@ -5,7 +5,7 @@ namespace OOD.RPG.FluentInterface.Types
     public class Character
     {
         public string Name { get; set; }
-        public ClassType Class { get; set; }
+        public ClassType ClassType { get; set; }
         public int Age { get; set; }
         public int Strength { get; set; }
         public int Intelligence { get; set; }
@@ -26,13 +26,13 @@ namespace OOD.RPG.FluentInterface.Types
         }
         public override string ToString()
         {
-            string result = $"{Name} {Class.ToString()} {Age} {Strength} {Agility} {Intelligence} {Gold} {HP} {MaxHP}";
+            string result = $"Name : {Name}\nClassType : {ClassType.ToString()}\nAge : {Age}\nStrength : {Strength} /Agility : {Agility} / Intelligence : {Intelligence}\nGold : {Gold}\nHealthPower/MaxHealthPower : {HP}/{MaxHP}";
             return result;
         }
 
         public string QuickStats()
         {
-            string result = $"{Name} {HP}/{MaxHP}";
+            string result = $"{Name} ({HP}/{MaxHP})";
             return result;
         }
     }
