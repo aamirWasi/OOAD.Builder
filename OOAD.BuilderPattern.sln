@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD.dotnetBuildertuts", "OO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD.BeverageBuilder_BuilderPatter", "OOD.BeverageBuilder_BuilderPatter\OOD.BeverageBuilder_BuilderPatter.csproj", "{7DA89F70-BED7-460D-A90D-DCC60471D976}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentInterface", "FluentInterface\FluentInterface.csproj", "{A0D76534-76FD-4D1B-B2FD-4237FB66E8F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7DA89F70-BED7-460D-A90D-DCC60471D976}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DA89F70-BED7-460D-A90D-DCC60471D976}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DA89F70-BED7-460D-A90D-DCC60471D976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D76534-76FD-4D1B-B2FD-4237FB66E8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D76534-76FD-4D1B-B2FD-4237FB66E8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D76534-76FD-4D1B-B2FD-4237FB66E8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D76534-76FD-4D1B-B2FD-4237FB66E8F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
