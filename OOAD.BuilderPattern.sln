@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD.FluentInterface", "Flue
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD.RPG.FluentInterface", "OOD.RPG.FluentInterface\OOD.RPG.FluentInterface.csproj", "{AE6B0807-2277-4DEB-AAFF-40F237992AB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD.RPG.FluentInterface.Types", "OOD.RPG.FluentInterface.Types\OOD.RPG.FluentInterface.Types.csproj", "{FFF78BE3-5FD1-47E9-B7B2-BD31E1DAB9CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{AE6B0807-2277-4DEB-AAFF-40F237992AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE6B0807-2277-4DEB-AAFF-40F237992AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE6B0807-2277-4DEB-AAFF-40F237992AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF78BE3-5FD1-47E9-B7B2-BD31E1DAB9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF78BE3-5FD1-47E9-B7B2-BD31E1DAB9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF78BE3-5FD1-47E9-B7B2-BD31E1DAB9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF78BE3-5FD1-47E9-B7B2-BD31E1DAB9CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
