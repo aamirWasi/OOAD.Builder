@@ -9,15 +9,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOD.blogs.tedneward.pattern
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOD.Exam.Builder+MethodChaining", "OOD.Exam.Builder+MethodChaining\OOD.Exam.Builder+MethodChaining.csproj", "{ACB463D2-6F43-4FF0-98F0-5A27062D59A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD.dotnetBuildertuts", "OOD.dotnetBuildertuts\OOD.dotnetBuildertuts.csproj", "{8B7A5266-EA1F-48EA-BAAA-A5DFCB6F3DA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOD.dotnetBuildertuts", "OOD.dotnetBuildertuts\OOD.dotnetBuildertuts.csproj", "{8B7A5266-EA1F-48EA-BAAA-A5DFCB6F3DA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD.BeverageBuilder_BuilderPatter", "OOD.BeverageBuilder_BuilderPatter\OOD.BeverageBuilder_BuilderPatter.csproj", "{7DA89F70-BED7-460D-A90D-DCC60471D976}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOD.BeverageBuilder_BuilderPatter", "OOD.BeverageBuilder_BuilderPatter\OOD.BeverageBuilder_BuilderPatter.csproj", "{7DA89F70-BED7-460D-A90D-DCC60471D976}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD.FluentInterface", "FluentInterface\OOD.FluentInterface.csproj", "{A0D76534-76FD-4D1B-B2FD-4237FB66E8F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOD.FluentInterface", "FluentInterface\OOD.FluentInterface.csproj", "{A0D76534-76FD-4D1B-B2FD-4237FB66E8F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD.RPG.FluentInterface", "OOD.RPG.FluentInterface\OOD.RPG.FluentInterface.csproj", "{AE6B0807-2277-4DEB-AAFF-40F237992AB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOD.RPG.FluentInterface", "OOD.RPG.FluentInterface\OOD.RPG.FluentInterface.csproj", "{AE6B0807-2277-4DEB-AAFF-40F237992AB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD.RPG.FluentInterface.Types", "OOD.RPG.FluentInterface.Types\OOD.RPG.FluentInterface.Types.csproj", "{FFF78BE3-5FD1-47E9-B7B2-BD31E1DAB9CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOD.RPG.FluentInterface.Types", "OOD.RPG.FluentInterface.Types\OOD.RPG.FluentInterface.Types.csproj", "{FFF78BE3-5FD1-47E9-B7B2-BD31E1DAB9CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentInterface.Builder_MethodChaining_RPG_Project", "FluentInterface.Builder_MethodChaining_RPG_Project\FluentInterface.Builder_MethodChaining_RPG_Project.csproj", "{E780E084-57B2-4612-A619-8B47393CC9E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentInterface.Builder_MethodChaining_RPG_Project_Types", "FluentInterface.Builder_MethodChaining_RPG_Project_Types\FluentInterface.Builder_MethodChaining_RPG_Project_Types.csproj", "{CB3599CD-8AEF-47A4-8ECC-49F849A269F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{FFF78BE3-5FD1-47E9-B7B2-BD31E1DAB9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFF78BE3-5FD1-47E9-B7B2-BD31E1DAB9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFF78BE3-5FD1-47E9-B7B2-BD31E1DAB9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E780E084-57B2-4612-A619-8B47393CC9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E780E084-57B2-4612-A619-8B47393CC9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E780E084-57B2-4612-A619-8B47393CC9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E780E084-57B2-4612-A619-8B47393CC9E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB3599CD-8AEF-47A4-8ECC-49F849A269F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3599CD-8AEF-47A4-8ECC-49F849A269F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3599CD-8AEF-47A4-8ECC-49F849A269F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3599CD-8AEF-47A4-8ECC-49F849A269F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FluentInterface.Builder_MethodChaining_RPG_Project_Types\FluentInterface.Builder_MethodChaining_RPG_Project_Types.csproj" />
+  </ItemGroup>
+
+</Project>
