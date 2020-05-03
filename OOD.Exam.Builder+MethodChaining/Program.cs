@@ -10,6 +10,7 @@
                 .SetMeat(MeatType.beef)
                 .SetSize(PizzaSize.medium)
                 .SetSpicyLevel(SpicyLevel.high);
+            var order = builder.CreateOrder();
         }
     }
 }
