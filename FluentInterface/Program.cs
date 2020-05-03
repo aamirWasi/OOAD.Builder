@@ -1,4 +1,4 @@
-﻿namespace FluentInterface
+﻿namespace OOD.FluentInterface
 {
     class Program
     {

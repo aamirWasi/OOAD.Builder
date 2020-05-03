@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FluentInterface
+namespace OOD.FluentInterface
 {
     public class EmployeeBuilder
     {
